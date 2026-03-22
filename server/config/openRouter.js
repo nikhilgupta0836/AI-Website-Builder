@@ -1,5 +1,5 @@
 const openRouterUrl = "https://openrouter.ai/api/v1/chat/completions"
-const model = "deepseek/deepseek-chat-v3:free"
+const model = "openrouter/free"
 
 export const generateResponse = async (prompt) => {
     const res = await fetch(openRouterUrl, {
